@@ -1,0 +1,341 @@
+{
+  "info": {
+    "_postman_id": "91e40a9d-59a2-404d-b2ee-5d1a483e621a",
+    "name": "RMA",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "35182988"
+  },
+  "item": [
+    {
+      "name": "Teknisi",
+      "item": [
+        {
+          "name": "Update Database Sparepart",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://localhost:443/api/endpoint/get-documents",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "443",
+              "path": [
+                "api",
+                "endpoint",
+                "get-documents"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Sparepart",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://localhost:443/api/endpoint/get-documents",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "443",
+              "path": [
+                "api",
+                "endpoint",
+                "get-documents"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Sparepart Copy",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://localhost:443/api/endpoint/get-documents",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "443",
+              "path": [
+                "api",
+                "endpoint",
+                "get-documents"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "unrepair",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://localhost:443/api/endpoint/get-documents",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "443",
+              "path": [
+                "api",
+                "endpoint",
+                "get-documents"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "hitsotyservice",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://localhost:443/api/endpoint/get-documents",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "443",
+              "path": [
+                "api",
+                "endpoint",
+                "get-documents"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Customer",
+      "item": [
+        {
+          "name": "edit profil Copy",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "view edit profil",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "respone odoo",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Show Dokumen",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "trial get dokumen",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3RyaWFscm1hLWJlLmR3cC5pby9hcGkvcmVnaXN0ZXIvdmFsaWRhdGUiLCJpYXQiOjE3MjI0NzU1NzYsImV4cCI6MTcyMjUxODc3NiwibmJmIjoxNzIyNDc1NTc2LCJqdGkiOiJYN0pPYXhGdXU0NUNlU1hCIiwic3ViIjoiMyIsInBydiI6IjFkMGEwMjBhY2Y1YzRiNmM0OTc5ODlkZjFhYmYwZmJkNGU4YzhkNjMifQ.BfSr0JqI11oUjEiYzBGTo3SQgtnAJaKbW1UmDRK3C_U",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://trialrma-be.dwp.io/api/customer/get-documents?odoo_rma_ticket_id=473",
+          "protocol": "https",
+          "host": [
+            "trialrma-be",
+            "dwp",
+            "io"
+          ],
+          "path": [
+            "api",
+            "customer",
+            "get-documents"
+          ],
+          "query": [
+            {
+              "key": "odoo_rma_ticket_id",
+              "value": "473"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get dokumen",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:443/api/endpoint/get-documents",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "443",
+          "path": [
+            "api",
+            "endpoint",
+            "get-documents"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "approval penawaran customer",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:443/api/endpoint/get-documents",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "443",
+          "path": [
+            "api",
+            "endpoint",
+            "get-documents"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "TTD MANAGER TECH",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:443/api/endpoint/ttd-surat?odoo_rma_ticket_id=204&action=reject",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "443",
+          "path": [
+            "api",
+            "endpoint",
+            "ttd-surat"
+          ],
+          "query": [
+            {
+              "key": "odoo_rma_ticket_id",
+              "value": "204",
+              "type": "text"
+            },
+            {
+              "key": "action",
+              "value": "reject",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST EVI INVOICE",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:443/api/endpoint/ttd-surat?odoo_rma_ticket_id=204&action=reject",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "443",
+          "path": [
+            "api",
+            "endpoint",
+            "ttd-surat"
+          ],
+          "query": [
+            {
+              "key": "odoo_rma_ticket_id",
+              "value": "204",
+              "type": "text"
+            },
+            {
+              "key": "action",
+              "value": "reject",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Upload evi DO",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "photo",
+              "value": "",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://imp-close-subtly.ngrok-free.app/api/endpoint/upload-images-evidence-do?token=6JtTi601HTYhMy4Ax7dJ6JtTi601HTYhMy4Ax7dJuuQclWEg8fZ3uuQclWEg8fZ3a&odoo_rma_ticket_id=345",
+          "protocol": "https",
+          "host": [
+            "imp-close-subtly",
+            "ngrok-free",
+            "app"
+          ],
+          "path": [
+            "api",
+            "endpoint",
+            "upload-images-evidence-do"
+          ],
+          "query": [
+            {
+              "key": "token",
+              "value": "6JtTi601HTYhMy4Ax7dJ6JtTi601HTYhMy4Ax7dJuuQclWEg8fZ3uuQclWEg8fZ3a"
+            },
+            {
+              "key": "odoo_rma_ticket_id",
+              "value": "345"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

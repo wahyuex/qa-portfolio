@@ -1,0 +1,539 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Api-RMA
+meta:
+  id: wrk_06390a6673904330b5239cabd3a26371
+  created: 1708653458945
+  modified: 1709774844132
+  description: ""
+collection:
+  - url: http://localhost/api/login/
+    name: login admin
+    meta:
+      id: req_86f5ded531534e5dbc3d6abf3feab2d5
+      created: 1708915734851
+      modified: 1709001572978
+      isPrivate: false
+      description: ""
+      sortKey: -1708057707842.5
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: email
+          value: wahyu4@gmail.com
+          description: ""
+          disabled: false
+        - name: password
+          value: password
+          description: ""
+          disabled: false
+        - name: name
+          value: sumber jaya3
+          description: ""
+          disabled: true
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/customer/me
+    name: indexcustomer
+    meta:
+      id: req_705031b0389f4080b70ee1893973b72e
+      created: 1708915843523
+      modified: 1709786338583
+      isPrivate: false
+      description: ""
+      sortKey: -1707759828951.25
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: email
+          value: sumbermakmur@gmail.com
+          description: ""
+          disabled: false
+        - name: password
+          value: password
+          description: ""
+          disabled: false
+        - name: name
+          value: sumber jaya3
+          description: ""
+          disabled: true
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    authentication:
+      type: bearer
+      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0L2FwaS9sb2dpbnVjdXN0IiwiaWF0IjoxNzA5Nzg2MzI2LCJleHAiOjE3MDk3ODk5MjYsIm5iZiI6MTcwOTc4NjMyNiwianRpIjoiRjhmM2daR3hRWjdUWG1xNiIsInN1YiI6IjEiLCJwcnYiOiIxZDBhMDIwYWNmNWM0YjZjNDk3OTg5ZGYxYWJmMGZiZDRlOGM4ZDYzIn0.c5sd7yR_ws8fab1ZhcX89gLmm8zgmXdmrxVxAruniy0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/customer/logout
+    name: customerlogout
+    meta:
+      id: req_4154c4ff5a9e4ee093efc058b6c4f5dd
+      created: 1708915876908
+      modified: 1709001622502
+      isPrivate: false
+      description: ""
+      sortKey: -1707610889505.625
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: email
+          value: sumbermakmur2@gmail.com
+          description: ""
+          disabled: false
+        - name: password
+          value: password
+          description: ""
+          disabled: false
+        - name: name
+          value: sumber jaya3
+          description: ""
+          disabled: true
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    authentication:
+      type: bearer
+      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0L2FwaS9sb2dpbiIsImlhdCI6MTcwODkxNzQwMiwiZXhwIjoxNzA4OTIxMDAyLCJuYmYiOjE3MDg5MTc0MDIsImp0aSI6IlJNVXhrYmgwUzJ4amp4ZW0iLCJzdWIiOiIyIiwicHJ2IjoiZGY4ODNkYjk3YmQwNWVmOGZmODUwODJkNjg2YzQ1ZTgzMmU1OTNhOSJ9.L7vLvFBmybTRqSfajl0hgrFIN5uQUzokhTkEYx2222U
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/register
+    name: register admin
+    meta:
+      id: req_6b74791c3e2d43e4bfb1834494252737
+      created: 1708915985395
+      modified: 1709444250189
+      isPrivate: false
+      description: ""
+      sortKey: -1708355586733.75
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: email
+          value: wahyu5@gmail.com
+          description: ""
+          disabled: false
+        - name: password
+          value: password
+          description: ""
+          disabled: false
+        - name: name
+          value: wahyup
+          description: ""
+          disabled: false
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/admin/me
+    name: indexadmin
+    meta:
+      id: req_aefb85ca77434c4cbd96cf00417596b4
+      created: 1708916034906
+      modified: 1709018664592
+      isPrivate: false
+      description: ""
+      sortKey: -1708504526179.375
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: email
+          value: sumbermakmur2@gmail.com
+          description: ""
+          disabled: false
+        - name: password
+          value: password
+          description: ""
+          disabled: false
+        - name: name
+          value: sumber jaya3
+          description: ""
+          disabled: false
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    authentication:
+      type: bearer
+      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0L2FwaS9sb2dpbiIsImlhdCI6MTcwOTAxODY1MiwiZXhwIjoxNzA5MDIyMjUyLCJuYmYiOjE3MDkwMTg2NTIsImp0aSI6InVzRUwwMHpvVkFjZndXcEYiLCJzdWIiOiIxIiwicHJ2IjoiZGY4ODNkYjk3YmQwNWVmOGZmODUwODJkNjg2YzQ1ZTgzMmU1OTNhOSJ9.Gpx09lKIR1DxZLiD6Pr-tbucEmPGeoXmk6CDB9C4h-U
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/admin/tickets/5/update-status
+    name: edit ticket
+    meta:
+      id: req_fbfe120a3df3404ea51f510e3de2911e
+      created: 1708916047821
+      modified: 1709018739987
+      isPrivate: false
+      description: ""
+      sortKey: -1708578996102.1875
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: status_ticket_id
+          value: "2"
+          description: ""
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    authentication:
+      type: bearer
+      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0L2FwaS9sb2dpbiIsImlhdCI6MTcwOTAxODY1MiwiZXhwIjoxNzA5MDIyMjUyLCJuYmYiOjE3MDkwMTg2NTIsImp0aSI6InVzRUwwMHpvVkFjZndXcEYiLCJzdWIiOiIxIiwicHJ2IjoiZGY4ODNkYjk3YmQwNWVmOGZmODUwODJkNjg2YzQ1ZTgzMmU1OTNhOSJ9.Gpx09lKIR1DxZLiD6Pr-tbucEmPGeoXmk6CDB9C4h-U
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/customer/ticket
+    name: createticket
+    meta:
+      id: req_0e9e0ccc25d3481595456a257b0d6aa6
+      created: 1708920186583
+      modified: 1709018554814
+      isPrivate: false
+      description: ""
+      sortKey: -1707610889405.625
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: keluhan
+          value: rusak total semua alat nya
+          description: ""
+        - name: mac_address
+          value: 00:11:22:33:44:55
+          description: ""
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    authentication:
+      type: bearer
+      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0L2FwaS9sb2dpbnVjdXN0IiwiaWF0IjoxNzA5MDE4NDQzLCJleHAiOjE3MDkwMjIwNDMsIm5iZiI6MTcwOTAxODQ0MywianRpIjoia2pSTmRxT0N1NFhQTTROZCIsInN1YiI6IjIiLCJwcnYiOiIxZDBhMDIwYWNmNWM0YjZjNDk3OTg5ZGYxYWJmMGZiZDRlOGM4ZDYzIn0.rbWTqL0G-PoFFKzV0jcMVhG77Y4vOpizUtEph1zYMUI
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/admin/tickets
+    name: view ticket
+    meta:
+      id: req_48e33cf45f1b41da9ca1c3f6f33ea902
+      created: 1708920770306
+      modified: 1709444227006
+      isPrivate: false
+      description: ""
+      sortKey: -1708578996002.1875
+    method: GET
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: ""
+          value: ""
+          description: ""
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    authentication:
+      type: bearer
+      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0L2FwaS9sb2dpbiIsImlhdCI6MTcwOTQ0NDIwMCwiZXhwIjoxNzA5NDQ3ODAwLCJuYmYiOjE3MDk0NDQyMDAsImp0aSI6IjBTc092TWZ4a2lkMnRFVUsiLCJzdWIiOiIxIiwicHJ2IjoiZGY4ODNkYjk3YmQwNWVmOGZmODUwODJkNjg2YzQ1ZTgzMmU1OTNhOSJ9.ZnT1grtubFHQgKW0U1VTS_T9mx3poPZgj_SPEu-lpUU
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/admin/refresh
+    name: Refresh token admin
+    meta:
+      id: req_db14f371b3934edabb3635ccb5eebc23
+      created: 1709000626508
+      modified: 1709018765307
+      isPrivate: false
+      description: ""
+      sortKey: -1709000626508
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/8.6.1
+    authentication:
+      type: bearer
+      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0L2FwaS9sb2dpbiIsImlhdCI6MTcwOTAxODY1MiwiZXhwIjoxNzA5MDIyMjUyLCJuYmYiOjE3MDkwMTg2NTIsImp0aSI6InVzRUwwMHpvVkFjZndXcEYiLCJzdWIiOiIxIiwicHJ2IjoiZGY4ODNkYjk3YmQwNWVmOGZmODUwODJkNjg2YzQ1ZTgzMmU1OTNhOSJ9.Gpx09lKIR1DxZLiD6Pr-tbucEmPGeoXmk6CDB9C4h-U
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/registercust
+    name: registercust
+    meta:
+      id: req_ee6b937f61264b3b8ef57b1f14b0e0f3
+      created: 1709001594969
+      modified: 1709867822060
+      isPrivate: false
+      description: ""
+      sortKey: -1707610889455.625
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: email
+          value: yogikwahyu10@gmail.com
+          description: ""
+          disabled: false
+        - name: password
+          value: password
+          description: ""
+          disabled: true
+        - name: name
+          value: sumber jaya3
+          description: ""
+          disabled: true
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/loginucust
+    name: logincust
+    meta:
+      id: req_d6fd09e1d6324cca83a01aff5798873a
+      created: 1709001644804
+      modified: 1709785937696
+      isPrivate: false
+      description: ""
+      sortKey: -1707610889430.625
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: email
+          value: natuwahyu@gmail.com
+          description: ""
+          disabled: false
+        - name: password
+          value: password
+          description: ""
+          disabled: false
+        - name: name
+          value: sumber jaya3
+          description: ""
+          disabled: true
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    authentication:
+      type: bearer
+      token: ""
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/customer/search
+    name: search
+    meta:
+      id: req_d48f1821ab6644fb946afcede8ab4c2b
+      created: 1709475582958
+      modified: 1709538845929
+      isPrivate: false
+      description: ""
+      sortKey: -1707610889418.125
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: mac_address
+          value: AA:BB:CC:DD:EE:FS
+          description: ""
+          disabled: false
+        - name: password
+          value: iXmOcYf8tehd
+          description: ""
+          disabled: true
+        - name: name
+          value: sumber jaya3
+          description: ""
+          disabled: true
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    authentication:
+      type: bearer
+      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0L2FwaS9sb2dpbnVjdXN0IiwiaWF0IjoxNzA5NTM4Njc3LCJleHAiOjE3MDk1NDIyNzcsIm5iZiI6MTcwOTUzODY3NywianRpIjoiTXNWcVFoNmR3Y0JBOGdDTCIsInN1YiI6IjEwIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.0Pul2AwEei3cp2K47WxmgHmTRUWp7gSontfzqeHRBac
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/customer/generate
+    name: GenerateTicket
+    meta:
+      id: req_081552b037984be3b5bd6a5c21fd5e4a
+      created: 1709520892365
+      modified: 1709538866762
+      isPrivate: false
+      description: ""
+      sortKey: -1707536419732.8125
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: keluhan
+          value: rusak total semua alat nya
+          description: ""
+          disabled: true
+        - name: mac_address
+          value: 00:11:22:33:44:55
+          description: ""
+          disabled: true
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    authentication:
+      type: bearer
+      token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0L2FwaS9sb2dpbnVjdXN0IiwiaWF0IjoxNzA5NTM4Njc3LCJleHAiOjE3MDk1NDIyNzcsIm5iZiI6MTcwOTUzODY3NywianRpIjoiTXNWcVFoNmR3Y0JBOGdDTCIsInN1YiI6IjEwIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.0Pul2AwEei3cp2K47WxmgHmTRUWp7gSontfzqeHRBac
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost/api/changepassword/dwjMs8OIK5OBqHBDAiwRuLsSdBKXV83haTlBDDPAbVrRnUlTfjZYxCVZEJ1u
+    name: resetpassword
+    meta:
+      id: req_e014b43678364ee492c42bf5f714b899
+      created: 1709776043155
+      modified: 1709785589291
+      isPrivate: false
+      description: ""
+      sortKey: -1707610889443.125
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - name: email
+          value: natuwahyu@gmail.com
+          description: ""
+          disabled: true
+        - name: password
+          value: password
+          description: ""
+          disabled: false
+        - name: name
+          value: sumber jaya3
+          description: ""
+          disabled: true
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+      - name: User-Agent
+        value: insomnia/8.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_2ad3f4c627c8ba4146c212fc24bc2b9264a5709c
+    created: 1708653458954
+    modified: 1708653458954
+environments:
+  name: Base Environment
+  meta:
+    id: env_2ad3f4c627c8ba4146c212fc24bc2b9264a5709c
+    created: 1708653458951
+    modified: 1708653458951
+    isPrivate: false
